@@ -1,0 +1,11 @@
+
+reset;
+option solver gurobi;
+model scheduling.mod;
+data scheduling.dat;
+solve;
+display utilizzo;
+display t_fine;
+display ritardo;
+display min_ritardo;
+
